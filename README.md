@@ -27,6 +27,28 @@ The video covers:
 
 ![Architecture Diagram](./quality.png)
 
+### Step Functions – State Machine Graph
+
+**Definition view (no run):**
+
+![Step Functions Graph](./stepfunctions_graph.svg)
+
+**Successful execution:**
+
+![Step Functions Execution](./step_function.png)
+
+---
+
+### Glue Job – Visual Graph
+
+![Glue Job](./Gluejob.png)
+
+---
+
+### SNS – Email Alerts
+
+![SNS Email Alerts](./sns.png)
+
 **Flow (left → right):**
 
 1. **S3 (`input_data/`)**
@@ -186,38 +208,6 @@ any **high-traffic, read-heavy aggregation** that can tolerate batched refreshes
      ORDER BY released_year, genre
      LIMIT 20;
      ```
-
----
-
-## 🖼️ Screenshots
-
-### Architecture
-
-![Architecture Diagram](./quality.png)
-
----
-
-### Step Functions – State Machine Graph
-
-**Definition view (no run):**
-
-![Step Functions Graph](./stepfunctions_graph.svg)
-
-**Successful execution:**
-
-![Step Functions Execution](./step_function.png)
-
----
-
-### Glue Job – Visual Graph
-
-![Glue Job](./Gluejob.png)
-
----
-
-### SNS – Email Alerts
-
-![SNS Email Alerts](./sns.png)
 
 ---
 
