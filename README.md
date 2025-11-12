@@ -9,17 +9,6 @@ This project shows how to build an **event-driven, data quality–aware pipeline
 - Use a **materialized view** for fast analytics
 - Get **email alerts** via **SNS** when data quality evaluations complete
 
-📺 **Full walkthrough video:**  
-👉 https://www.youtube.com/watch?v=Q9B-JuEkko8
-
-The video covers:
-
-- Dataset & problem statement
-- Architecture walkthrough
-- AWS setup (S3, Glue, Redshift, EventBridge, Step Functions, SNS)
-- Glue Data Quality configuration
-- End-to-end run & Redshift queries
-- Materialized view explanation and use cases
 
 ---
 
